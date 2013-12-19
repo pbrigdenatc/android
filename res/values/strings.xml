@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_name">OurSpace</string>
+    
+	<string name="menu_settings">Settings</string>
+	<string name="general_app_settings">Application settings</string>
+    <string name="language_setting">Application language</string>
+    <string name="language_content_setting">Content language</string>
+    <string name="language_content_setting_true">Show content for any language</string>
+    <string name="language_content_setting_false">Show content for selected language</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="clear_cache_verify">Are you sure you want to clear cache now?</string>
+    <string name="refresh">Refresh</string>
+    
+    <string name="home_tab_title">Home</string>
+	<string name="propose_tab_title">Suggest</string>
+	<string name="propose_title">Vote proposed topics</string>
+	<string name="join_tab_title">Join</string>
+	<string name="join_title">Join forum</string>
+	<string name="vote_tab_title">Vote</string>
+	<string name="vote_title">Vote solutions</string>
+	<string name="results_tab_title">Results</string>
+	<string name="results_title">View results</string>
+	<string name="overview_title">Overview</string>
+	<string name="have_your_say">Have your say</string>
+    
+	<string name="top_topics">Top topics</string>
+	<string name="recent_activity">Recent activity</string>
+	
+	<string name="recent_row">test \'<xliff:g id="user">%s</xliff:g>\'.\n test</string>
+	<string name="in_place">in</string>
+	<string name="posted">posted in</string>
+	<string name="topic">topic</string>
+	    
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="please_wait">Please wait ...</string>
+	<string name="updating">Updating ...</string>
+	<string name="email_title">E-mail</string>
+    <string name="password_title">Password</string>
+    <string name="connect_button">Log in</string>
+    <string name="login">Login</string>
+    <string name="login_label">Please enter username and password to login</string>
+    <string name="logout">Logout</string>
+    <string name="login_empty">Please enter username to login</string>
+    <string name="login_failed">Login failed!</string>
+	<string name="login_required">Login required to access this feature</string>
+    <string name="login_select">Please select how to login:</string>
+    <string name="positive">positive</string>
+    <string name="negative">negative</string>
+    <string name="reply">Reply</string>
+    <string name="reply_solution">Suggest solution</string>
+    <string name="post">Post!</string>
+    <string name="empty_thread">There are no threads in this phase</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="forum_prefix">Open Topic-Debates for</string>
+
+    <string name="propose_for">Propose for</string>
+	<string name="discuss_on">Discuss on</string>
+	<string name="solutions_of">Solutions of</string>
+	<string name="results_of">Results of</string>
+	
+	<string name="cant_vote">You are not allowed to vote in this phase!!!</string>
+    <string name="has_voted">You have already voted!!!</string>
+    <string name="vote">Vote</string>
+    <string name="send">Send</string>
+    <string name="vote_question">vote?</string>
+    <string name="vote_success">Voted!</string>
+    <string name="vote_fail">Failed to vote!</string>
+    <string name="reply_success">Posted successfully!</string>
+    <string name="reply_fail">Failed to post reply!</string>
+    
+    <string name="agree">agree</string>
+    <string name="disagree">disagree</string>
+    <string name="hi">Hi</string>
+    
+</resources>

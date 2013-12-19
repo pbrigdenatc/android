@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="eu.ourspace"
+      android:versionCode="5"
+      android:versionName="1.1"
+      android:installLocation="auto" >
+      
+    <uses-sdk android:minSdkVersion="7" />
+    
+    
+    <application android:icon="@drawable/ourspace_logo_android"
+    			 android:name="GlobalApp"
+    			 android:label="@string/app_name"
+    			 android:debuggable="false" >    			 
+
+        <activity android:name=".SplashActivity"
+        			android:screenOrientation="portrait"
+        			android:configChanges="keyboardHidden|orientation|locale"
+        			android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+     			<action android:name="android.intent.action.VIEW" />
+     			<category android:name="android.intent.category.DEFAULT" />
+ 			</intent-filter>
+        </activity>
+        
+        <activity
+        	android:name=".UI.OverviewListActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />	
+        <activity
+        	android:name=".UI.MainTabActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.HomeActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.ProposeActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.JoinActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.VoteActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.ResultsActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.TopicViewActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+        	android:name=".UI.ForumsListActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.ThreadListActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.LoginActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity
+        	android:name=".UI.LoginOptionActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+        	android:name=".UI.LinkedinLoginActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar"
+        	android:windowSoftInputMode="stateAlwaysVisible"
+        	android:launchMode="singleInstance">
+            
+            <intent-filter>
+                    <action android:name="android.intent.action.VIEW" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.BROWSABLE" />
+                    <data android:scheme="x-oauthflow-linkedin" android:host="callback" />
+            </intent-filter>
+            
+        </activity>
+            
+        <activity
+        	android:name=".UI.TwitterLoginActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar"
+        	android:windowSoftInputMode="stateAlwaysVisible"
+        	android:launchMode="singleInstance">
+            
+            <intent-filter>
+                    <action android:name="android.intent.action.VIEW" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.BROWSABLE" />
+                    <data android:scheme="x-oauthflow-twitter" android:host="callback" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity
+        	android:name=".UI.PostReplyActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+        	android:name=".UI.GeneralPreferencesActivity"
+        	android:configChanges="keyboardHidden|orientation|locale"
+        	android:theme="@android:style/Theme.NoTitleBar" />
+        
+    </application>
+    
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+	<uses-feature android:name="android.hardware.location" android:required="false" />
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+</manifest>

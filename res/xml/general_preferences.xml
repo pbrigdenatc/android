@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/general_app_settings">
+                
+        <ListPreference
+        		android:key="appLanguage"
+                android:persistent="true"
+                android:title="@string/language_setting"
+                android:entries="@array/entries_preference_languages"
+                android:entryValues="@array/entryvalues_preference_languages"
+                android:dialogTitle="@string/language_setting" />
+                
+		<CheckBoxPreference
+        		android:key="contentLangAny"
+                android:persistent="true"
+                android:title="@string/language_content_setting"
+                android:dialogTitle="@string/language_content_setting"
+                android:summaryOn="@string/language_content_setting_true"
+                android:summaryOff="@string/language_content_setting_false" />
+                
+        <Preference
+        		android:key="clearCache"
+        		android:persistent="false"
+        		android:title="@string/clear_cache"
+        />
+                
+    </PreferenceCategory>
+
+    
+</PreferenceScreen>

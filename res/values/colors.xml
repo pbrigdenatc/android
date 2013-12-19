@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="blueStart">#FF5fb7ff</color>
+<color name="blueEnd">#FF3d7fb6</color>
+
+<color name="darkBlueStart">#FF3d9dff</color>
+<color name="darkBlueEnd">#FF2263a6</color>
+
+<color name="listDividerStart">#FFEEEEEE</color>
+<color name="listDividerMid">#FFCCCCCC</color>
+<color name="listDividerEnd">#FFEEEEEE</color>
+
+<color name="lightBlue">#FF48a5ff</color>
+<color name="solutionBack">#FFEBF6FF</color>
+<color name="resultBack">#FFDCEEFC</color>
+
+
+
+<color name="headerTransparentStart">#90000000</color>
+<color name="headerTransparentEnd">#90444444</color>
+
+<color name="backgroundGeneral">#FFFFCC</color>
+
+<color name="mapPath">#B30000FF</color>
+
+
+<color name="tabSelected">#40FFFFFF</color>
+<color name="tabNotSelected">#ff000000</color>
+<color name="tabPressed">#70FFFFFF</color>
+<color name="tabDivider">#99FFFFFF</color>
+
+
+<color name="grayListDivider">#ffc1c1c1</color>
+<color name="lightGrayListDivider">#ffe3e3e3</color>
+<color name="darkGrayListDivider">#ff999999</color>
+
+
+<color name="darkGray">#FF555555</color>
+<color name="lightGray">#FF888888</color>
+
+<color name="selectedOptions">#FF395178</color>
+
+
+<color name="grayStripe">#cc000000</color>
+
+
+<color name="white">#ffffff</color>
+<color name="tab_grey">#484849</color>
+
+<color name="tabIndicatorTextSelected">#ffFFFFFF</color>
+<color name="tabIndicatorTextUnselected">#ff646e77</color>
+
+</resources>

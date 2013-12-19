@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_name">OurSpace</string>
+    
+	<string name="menu_settings">Einstellungen</string>
+	<string name="general_app_settings">Applikationseinstellungen</string>
+    <string name="language_setting">Programmsprache</string>
+    <string name="language_content_setting">Inhalt Sprache</string>
+    <string name="language_content_setting_true">Inhalt anzeigen für jede Sprache</string>
+    <string name="language_content_setting_false">Inhalt anzeigen für ausgewählte Sprache</string>
+    <string name="clear_cache">Cache leeren</string>
+    <string name="clear_cache_verify">Bist Du sicher, dass Du jetzt den Cache leeren willst?</string>
+    <string name="refresh">Aktualisieren</string>
+    
+    <string name="home_tab_title">Startseite</string>
+	<string name="propose_tab_title">Vorschlagen</string>
+	<string name="propose_title">Vorgeschlagene Themen wählen</string>
+	<string name="join_tab_title">Beitreten</string>
+	<string name="join_title">Forum beitreten</string>
+	<string name="vote_tab_title">Lösungen</string>
+	<string name="vote_title">Lösungen abstimmen</string>
+	<string name="results_tab_title">Ergebnisse</string>
+	<string name="results_title">Ergebnisse ansehen</string>
+	<string name="overview_title">Überblick</string>
+	<string name="have_your_say">Sag deine Meinung</string>
+    
+	<string name="top_topics">Populäre Themen</string>
+	<string name="recent_activity">Kürzliche Aktivitäten</string>
+	
+	<string name="in_place">in</string>
+	<string name="posted">gepostet in</string>
+	<string name="topic">thema</string>
+	    
+	<string name="ok">OK</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="please_wait">Bitte warten ...</string>
+	<string name="updating">Aktualisieren ...</string>
+	<string name="email_title">E-mail</string>
+    <string name="password_title">Passwort</string>
+    <string name="connect_button">Anmeldung</string>
+    <string name="login">Anmeldung</string>
+    <string name="login_label">Bitte gib deinen Usernamen und dein Passwort ein</string>
+    <string name="logout">Logout</string>
+    <string name="login_empty">Bitte gib deinen Usernamen ein um dich anzumelden</string>
+    <string name="login_failed">Anmeldung fehlgeschalgen!</string>
+	<string name="login_required">Anmeldung erfoderlich um diese Funktion zu verwenden</string>
+    <string name="login_select">Bitte wähle aus, wie du dich anmelden willst:</string>
+    <string name="positive">positiv</string>
+    <string name="negative">negativ</string>
+    <string name="reply">Antworten</string>
+    <string name="reply_solution">Vorschlagen lösung</string>
+    <string name="post">Posten!</string>
+    <string name="empty_thread">Es gibt keine Themen in dieser Phase</string>
+    <string name="previous">Vorherige</string>
+    <string name="next">Weiter</string>
+    <string name="forum_prefix">Open Topic-Debates for</string>
+
+    <string name="propose_for">Schlagen Sie für</string>
+	<string name="discuss_on">Diskutieren Sie auf</string>
+	<string name="solutions_of">Lösungen von</string>
+	<string name="results_of">Die Ergebnisse der</string>
+	
+	<string name="cant_vote">Sie sind nicht berechtigt, in dieser Phase abstimmen!!!</string>
+    <string name="has_voted">Du hast bereits abgestimmt!!!</string>
+    <string name="vote">Abstimmen</string>
+    <string name="send">Senden</string>
+    <string name="vote_question">abstimmen?</string>
+    <string name="vote_success">Abgestimmt!</string>
+    <string name="vote_fail">Abstimmen fehlgeschlagen!</string>
+    <string name="reply_success">Erfolreich gepostet!</string>
+    <string name="reply_fail">Posten fehlgeschlagen!</string>
+    
+    <string name="agree">agree</string>
+    <string name="disagree">disagree</string>
+    
+</resources>

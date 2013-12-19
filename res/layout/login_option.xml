@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+	android:layout_gravity="center" >
+
+<RelativeLayout
+    android:id="@+id/toprow"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center" >
+	  	
+    <FrameLayout
+        android:id="@+id/ourspace_login"
+        android:layout_gravity="center_vertical"
+        android:gravity="center" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:paddingBottom="4dip"
+	    android:layout_marginRight="8dip"
+		android:clickable="true"
+		android:onClick="ourSpaceLogin" >
+        
+		<ImageView
+	        android:layout_width="72dip" 
+	        android:layout_height="38dip"
+	        android:src="@drawable/ourspace_logo_android"
+	        android:scaleType="fitXY"
+	        android:layout_gravity="center"
+	        android:gravity="center" />
+	
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingBottom="6dip"
+        	android:layout_gravity="center"
+        	android:gravity="center"
+			android:textColor="#EEEEEE"
+			android:text="@string/login"
+			android:background="@android:color/transparent"
+			android:textStyle="bold"
+			android:textSize="@dimen/text_size_small" />
+	
+	</FrameLayout>
+	
+	<ImageView
+		android:id="@+id/fb_connect"
+		android:layout_toRightOf="@id/ourspace_login"
+        android:layout_width="72dip" 
+        android:layout_height="30dip"
+        android:src="@drawable/login_button"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="8dip"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+		android:clickable="true"
+        android:onClick="facebookLogin" />
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_below="@id/toprow"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:layout_marginTop="8dip"
+	android:visibility="gone" >
+	
+	<ImageView
+		android:id="@+id/linkedin_connect"
+        android:layout_width="72dip" 
+        android:layout_height="30dip"
+        android:src="@drawable/linkedin_login"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="8dip"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+		android:clickable="true"
+        android:onClick="linkedinLogin" />
+    
+	<ImageView
+		android:id="@+id/twitter_connect"
+		android:layout_toRightOf="@id/linkedin_connect"
+        android:layout_width="72dip" 
+        android:layout_height="30dip"
+        android:src="@drawable/twitter_logo"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="8dip"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+		android:clickable="true"
+        android:onClick="twitterLogin" />
+	
+</RelativeLayout>
+
+ 
+
+</RelativeLayout>

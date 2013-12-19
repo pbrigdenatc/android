@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white">
+
+   <RelativeLayout style="@style/TitleBar">
+        <ImageView 
+            style="@style/TitleBarLogo" 
+           	android:src="@drawable/logo_selector"
+           	android:onClick="onHomeClick"
+         />
+        <TextView 
+            style="@style/TitleBarGreeting"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@color/white"
+             />
+    </RelativeLayout>
+    
+	<include layout="@layout/home_title_row"
+		android:id="@+id/header" />
+
+	<ListView
+		android:id="@id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@android:color/white"
+		android:divider="@drawable/divider_white_list"
+		android:dividerHeight="1px"
+		android:fastScrollEnabled="true"
+		android:cacheColorHint="@null" />
+	
+  	<TextView android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textColor="@color/darkGray"
+        android:textSize="@dimen/text_size_small"
+        android:background="@android:color/transparent"
+        android:padding="8dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="@string/empty_thread"/>
+	
+</LinearLayout>

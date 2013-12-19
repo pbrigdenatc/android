@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <style name="TitleBar">
+        <item name="android:id">@id/title_container</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:background">@drawable/blue_gradient</item>     
+        <item name="android:padding">5dip</item>
+    </style>
+    
+    <style name="TitleBarLogo">
+        <item name="android:id">@id/title_logo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:clickable">true</item>
+    </style> 
+    
+    <style name="TitleBarGreeting">
+        <item name="android:id">@id/title_greeting</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+</resources>

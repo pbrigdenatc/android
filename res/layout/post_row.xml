@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/transparent"
+	android:padding="4dip"
+	android:gravity="center_vertical" >
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/transparent"
+		android:gravity="center_vertical">
+	
+		<ImageView android:id="@+id/photo"
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:layout_gravity="center_vertical"
+			android:padding="4dip"
+			android:src="@drawable/no_avatar"
+			android:scaleType="fitCenter"
+		 />
+	
+		<TextView android:id="@+id/date"
+	        android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="12dip"
+	        android:textColor="#ff000000"
+	        android:textSize="@dimen/text_size_small"
+			android:paddingRight="6dip"
+	        android:background="@android:color/transparent"
+	    />
+			    
+	    <TextView android:id="@+id/user"
+	        android:layout_toRightOf="@id/photo"
+	        android:layout_toLeftOf="@id/date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="12dip"
+	        android:textColor="#ff000000"
+	        android:textSize="@dimen/text_size_small"
+	        android:textStyle="bold"
+	        android:maxLines="1"
+			android:ellipsize="end"
+	        android:background="@android:color/transparent"
+	    />
+
+	
+	</RelativeLayout>
+	
+	<!--
+	<WebView android:id="@+id/webview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/transparent"
+		android:layout_marginTop="4dip"
+		android:layout_marginLeft="8dip"
+		android:layout_marginRight="8dip" />
+-->
+
+	<TextView android:id="@+id/webview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginTop="4dip"
+		android:layout_marginLeft="12dip"
+		android:layout_marginRight="12dip"
+		android:layout_marginBottom="4dip"
+	    android:textColor="#ff000000"
+	    android:textSize="13sp"
+	    android:background="@android:color/transparent"
+	/>
+	
+	<RelativeLayout
+	    android:id="@+id/voting"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dip"
+		android:layout_marginLeft="8dip"
+		android:background="@android:color/transparent"
+		android:gravity="center_vertical">
+
+		<RelativeLayout
+		    android:id="@+id/left"
+		    android:clickable="true"
+		    android:onClick="onThumbsUp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="12dip"
+			android:padding="4dip"
+			android:background="@drawable/round_grey"
+			android:gravity="center_vertical">
+	
+		    <ImageView android:id="@+id/thumbup"
+				android:layout_width="30dip"
+				android:layout_height="30dip"
+				android:layout_gravity="center_vertical"
+				android:padding="4dip"
+				android:src="@drawable/thumbs_up"
+				android:scaleType="fitCenter"
+		 	/>
+		    
+		    <TextView android:id="@+id/thumbup_value"
+		        android:layout_toRightOf="@id/thumbup"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:paddingLeft="4dip"
+		        android:paddingRight="4dip"
+		        android:textColor="#ff000000"
+		        android:textSize="12sp"
+		        android:background="@android:color/transparent"
+	    	/>
+		    
+		</RelativeLayout>
+	    
+		    
+		    
+		<RelativeLayout
+		   	android:clickable="true"
+		    android:onClick="onThumbsDown"
+		    android:layout_toRightOf="@id/left"
+		    android:id="@+id/right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="4dip"
+			android:background="@drawable/round_grey"
+			android:gravity="center_vertical">
+	
+		    <ImageView android:id="@+id/thumbdown"
+				android:layout_width="30dip"
+				android:layout_height="30dip"
+				android:layout_gravity="center_vertical"
+				android:padding="4dip"
+				android:src="@drawable/thumbs_down"
+				android:scaleType="fitCenter"
+		 	/>
+		    
+		    <TextView android:id="@+id/thumbdown_value"
+		        android:layout_toRightOf="@id/thumbdown"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:paddingLeft="4dip"
+		        android:paddingRight="4dip"
+		        android:textColor="#ff000000"
+		        android:textSize="12sp"
+		        android:background="@android:color/transparent"
+	    	/>
+		    
+		</RelativeLayout>
+	    	
+	</RelativeLayout>
+
+
+</LinearLayout>

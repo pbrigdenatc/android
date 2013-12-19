@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@android:color/white">
+
+	<RelativeLayout style="@style/TitleBar">
+        <ImageView 
+            style="@style/TitleBarLogo" 
+           	android:src="@drawable/logo_selector"
+         />
+        <TextView 
+            style="@style/TitleBarGreeting"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@color/white"
+             />
+    </RelativeLayout>
+		
+	<LinearLayout	    
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">	
+		<ListView
+			android:id="@id/android:list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@android:color/white"
+			android:divider="@drawable/divider_white_list"
+			android:dividerHeight="1px"
+			android:fastScrollEnabled="true"
+			android:cacheColorHint="@null" />
+		
+	  	<TextView android:id="@id/android:empty"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="@color/darkGray"
+	        android:textSize="@dimen/text_size_medium"
+	        android:background="@android:color/transparent"
+	        android:textStyle="bold"
+	        android:padding="8dip"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:maxLines="2"
+	        android:ellipsize="end"
+	        android:text="@string/empty_thread"/>
+  	</LinearLayout>
+
+	<Button
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/blue_gradient_selector"
+	    android:ellipsize="end"
+	    android:gravity="center"
+	    android:onClick="onHaveYourSayClick"
+	    android:padding="10dip"
+	    android:text="@string/have_your_say"
+	    android:textColor="#ffFFFFFF"
+	    android:textSize="14sp"
+	    android:textStyle="bold" />
+
+</LinearLayout>

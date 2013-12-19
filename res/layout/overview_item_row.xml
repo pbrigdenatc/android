@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/white"
+	android:gravity="center_vertical"
+	android:padding="4dip"
+	android:weightSum="6" >	
+	    
+    <RelativeLayout
+        android:layout_weight="5"
+	    android:layout_width="0dip"
+	    android:layout_height="wrap_content"
+        android:paddingLeft="12dip"
+    	android:background="@android:color/transparent" >
+         
+	    <TextView 
+	        android:id="@+id/overview_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ff000000"
+	        android:textSize="@dimen/text_size_small"
+	        android:maxLines="2"
+			android:ellipsize="end"
+	        android:background="@android:color/transparent" 
+	        android:text="This is the title"/>
+		    
+		<TextView 
+		    android:id="@+id/overview_subtitle"		    
+	        android:layout_below="@id/overview_title"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+	        android:textColor="@color/darkGray"
+	        android:textSize="@dimen/text_size_small"
+	        android:maxLines="1"
+			android:ellipsize="end"
+	        android:background="@android:color/transparent"
+	        android:drawableLeft="@drawable/flag_eu_sm" 
+	        android:text=" This is a subtitle"
+        />
+				 
+		<TextView android:id="@+id/overview_category"
+		    android:layout_below="@id/overview_subtitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ff005500"
+        	android:textSize="@dimen/text_size_small"
+	        android:maxLines="1"
+			android:ellipsize="end"
+	        android:background="@android:color/transparent" 
+	        android:text="This is a category"
+	    />
+    </RelativeLayout>
+    
+        
+    <RelativeLayout
+        android:layout_weight="1"
+	    android:layout_width="0dip"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical|right"
+	    android:gravity="center_horizontal"
+        android:layout_margin="6dip"
+    	android:background="@android:color/transparent" >
+		
+		<ImageView android:id="@+id/overview_phase_icon"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/icon"
+			android:scaleType="fitCenter" />
+		
+		<TextView android:id="@+id/overview_phase"
+		    android:layout_below="@id/overview_phase_icon"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:textColor="@color/darkGray"
+	        android:textSize="@dimen/text_size_xsmall"
+	        android:padding="2dip"
+	        android:maxLines="1"
+			android:ellipsize="end"
+			android:text="phase"
+	        android:background="@android:color/transparent" />
+    </RelativeLayout>
+		
+        
+</LinearLayout>

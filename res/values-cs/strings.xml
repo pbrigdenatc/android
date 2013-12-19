@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_name">OurSpace</string>
+    
+	<string name="menu_settings">Nastavení</string>
+	<string name="general_app_settings">Nastavní aplikací</string>
+    <string name="language_setting">Použití jazyka</string>
+    <string name="language_content_setting">Obsah jazyk</string>
+    <string name="language_content_setting_true">Zobrazit obsah z jakéhokoli jazyka</string>
+    <string name="language_content_setting_false">Zobrazit obsah pro zvolený jazyk</string>
+    <string name="clear_cache">Vymazat pamět</string>
+    <string name="clear_cache_verify">Jste si jisti, že chcete vymazat paměť?</string>
+    <string name="refresh">Obnovit</string>
+    
+    <string name="home_tab_title">Domů</string>
+	<string name="propose_tab_title">Návrh</string>
+	<string name="propose_title">Zvolit navrhované téma</string>
+	<string name="join_tab_title">Připojit se</string>
+	<string name="join_title">Připojit se k fóru</string>
+	<string name="vote_tab_title">Řešení</string>
+	<string name="vote_title">Hlasuj pro řešení</string>
+	<string name="results_tab_title">Výsledky</string>
+	<string name="results_title">Najdi výsledky</string>
+	<string name="overview_title">Přehled</string>
+	<string name="have_your_say">Have your say</string>
+    
+	<string name="top_topics">Top témata</string>
+	<string name="recent_activity">Právě probíhající aktivita</string>
+	
+	<string name="in_place">v</string>
+	<string name="posted">označeno v</string>
+	<string name="topic">téma</string>
+	    
+	<string name="ok">OK</string>
+	<string name="cancel">Zrušit</string>
+	<string name="please_wait">Prosím čekejte ...</string>
+	<string name="updating">Načítání ...</string>
+	<string name="email_title">E-mail</string>
+    <string name="password_title">Heslo</string>
+    <string name="connect_button">Přihlášení</string>
+    <string name="login">Přihlášení</string>
+    <string name="login_label">Prosím zadejte uživatelské jméno a heslo</string>
+    <string name="logout">Odhlásit</string>
+    <string name="login_empty">Prosím zadejte uživatelské jméno</string>
+    <string name="login_failed">Přihlášení se nezdařilo!</string>
+	<string name="login_required">Pro přihlášení je potřeba následující</string>
+    <string name="login_select">Prosím vyberte formu přihlášení:</string>
+    <string name="positive">pozitivní</string>
+    <string name="negative">negativní</string>
+    <string name="reply">Odpovědět</string>
+    <string name="reply_solution">Navrhnout řešení</string>
+    <string name="post">Okomentuj!</string>
+    <string name="empty_thread">Tam jsou žádné příspěvky v této fázi</string>
+    <string name="previous">Předchozí</string>
+    <string name="next">Další</string>
+    <string name="forum_prefix">Open Topic-Debates for</string>
+
+    <string name="propose_for">Navrhnout pro</string>
+	<string name="discuss_on">Diskutujte na</string>
+	<string name="solutions_of">Řešení</string>
+	<string name="results_of">Výsledky</string>
+	
+	<string name="cant_vote">Není dovoleno hlasovat v této fázi!</string>
+    <string name="has_voted">Právě jsi odhlasoval!!!</string>
+    <string name="vote">Hlasuj</string>
+    <string name="send">Pošli</string>
+    <string name="vote_question">hlasovat?</string>
+    <string name="vote_success">Odhlasováno!</string>
+    <string name="vote_fail">Hlasování se nezdařilo!</string>
+    <string name="reply_success">Komentář úspěšně vložen!</string>
+    <string name="reply_fail">Odpověď se nezdařilo odeslat!</string>
+    
+    <string name="agree">agree</string>
+    <string name="disagree">disagree</string>
+    
+</resources>
